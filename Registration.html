@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestriation</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        table {
+            border: 6px rgb(198, 139, 139) solid;
+            /* margin-left: 15%;
+            margin-right: 15%;
+            width: 70%;
+            margin-top: 15%;
+            margin-bottom: 15%;
+            height: 70%; */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table class="table" border=" " align="center">
+            <thead>
+                <tr>
+                    <td>first name:</td>
+                    <td><input type="text" name="first name"></td>
+                </tr>
+                <tr>
+                    <td>last name:</td>
+                    <td><input type="text" name="last name"></td>
+                </tr>
+                <tr>
+                    <td>password:
+                    <td><input type="password" name="password"></td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2" style="text-align: center;">gender</td>
+                    <td><input type="radio" name="gender" value="male" id="male"><label for="male">Male</label></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" value="female" id="females"><label for="female">female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Birthday: </label>
+                        <select name="month">
+                            <option> select a month
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            </option>
+
+                        </select>
+                    </td>
+                    <td> <input type="date"></td>
+                </tr>
+                <tr>
+                    <td colspan="2 " style="text-align:center ;"><b><u><big>Inserts</big> </u></b></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="sports">sports</td>
+                    <td><input type="radio" name="music">music</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="books">Books</td>
+                    <td><input type="radio" name="Computer Stuff">Computer Stuff</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="Fashion">Fashion</td>
+                    <td><input type="radio" name="Movies">Movies</td>
+                </tr>
+
+
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><a href="./logIn.html"><input type="submit"></a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
